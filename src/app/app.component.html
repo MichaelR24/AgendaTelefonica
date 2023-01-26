@@ -1,0 +1,12 @@
+<div id="container">
+<div id="formular">
+
+
+    <app-formular-adaugare (adaugaContact)="trimiteDate($event)" (afiseazaContacte)="afiseaza()" (refreshLista)="updateLista()"></app-formular-adaugare>
+</div>
+<div id="lista">
+
+
+    <app-lista-contacte [contacteLista]="contacteFinale" [acordDeAfisare]="seAfiseaza"   ></app-lista-contacte>
+</div>
+</div>

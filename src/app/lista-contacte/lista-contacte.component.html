@@ -1,0 +1,5 @@
+<div id="contactCard" *ngFor="let contact of contacteLista, let i=index" >
+<div *ngIf="acordDeAfisare" >{{  contact.nume  }} : {{contact.numar}}    <button (click)="stergeElement(i)">Sterge</button>
+</div>
+
+</div>

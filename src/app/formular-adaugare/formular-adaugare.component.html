@@ -1,0 +1,17 @@
+<h3>Formular de Adaugare Contact</h3>
+
+
+  
+  <input type="text" name="" id="nume" (input)="adaugaNume($event)" #campNume placeholder="Nume" >
+  <br>
+  
+  <br>
+  <input type="text" name="" id="numar" (input)="adaugaNumar($event)" #campNumar placeholder="Numar de Telefon">
+  <br><br>
+  <button type="submit" (click)="eventAdauga()">Adauga</button> 
+  <br><br>
+  <button (click)="eventRefresh()">Refresh Lista</button>
+  <br><br>
+  <button (click)="eventAfiseaza()">Afiseaza Lista</button>
+
+  
